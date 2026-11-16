@@ -1,0 +1,1954 @@
+<?xml version="1.0" ?>
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  
+
+  <Properties>
+    
+
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    
+
+    <Property name="title" type="java.lang.String" value="Metric Laundry - Customer Dashboard"/>
+    
+
+    <Property name="resizable" type="boolean" value="false"/>
+    
+
+  </Properties>
+  
+
+  <SyntheticProperties>
+    
+
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    
+
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+    
+
+  </SyntheticProperties>
+  
+
+  <AuxValues>
+    
+
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    
+
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    
+
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    
+
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    
+
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    
+
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    
+
+  </AuxValues>
+  
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  
+
+  <SubComponents>
+    
+
+    <Container class="javax.swing.JPanel" name="mainPanel">
+      
+
+      <Properties>
+        
+
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="F5" green="F8" red="F5" type="rgb"/>
+        </Property>
+        
+
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1280, 760]"/>
+        </Property>
+        
+
+      </Properties>
+      
+
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+      
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      
+
+      <SubComponents>
+        
+
+        <Container class="javax.swing.JPanel" name="sidebar">
+          
+
+          <Properties>
+            
+
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="FF" green="FF" red="FF" type="rgb"/>
+            </Property>
+            
+
+          </Properties>
+          
+
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="224" height="760"/>
+            </Constraint>
+          </Constraints>
+          
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+          
+
+          <SubComponents>
+            
+
+            <Component class="javax.swing.JLabel" name="logo">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="0"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value=""/>
+                
+
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/resources/images/logo.png"/>
+                </Property>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="79" y="30" width="64" height="64"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="javax.swing.JLabel" name="brand">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="17" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="METRIC LAUNDRY"/>
+                
+
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="103" width="184" height="24"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="javax.swing.JLabel" name="brandTagline">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="6B" green="6B" red="6B" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="11" style="0"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="A little care. A lot of fresh."/>
+                
+
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="132" width="184" height="20"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="components.RoundedButton" name="homeButton">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="3E" green="8E" red="1E" type="rgb"/>
+                </Property>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Home"/>
+                
+
+              </Properties>
+              
+
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="homeButtonActionPerformed"/>
+              </Events>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="196" width="184" height="46"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="components.RoundedButton" name="placeOrderButton">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                </Property>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Place Order"/>
+                
+
+              </Properties>
+              
+
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="placeOrderButtonActionPerformed"/>
+              </Events>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="252" width="184" height="46"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="components.RoundedButton" name="trackButton">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                </Property>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Track Order"/>
+                
+
+              </Properties>
+              
+
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="trackButtonActionPerformed"/>
+              </Events>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="308" width="184" height="46"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="components.RoundedButton" name="paymentButton">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                </Property>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Payment"/>
+                
+
+              </Properties>
+              
+
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="paymentButtonActionPerformed"/>
+              </Events>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="364" width="184" height="46"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="components.RoundedButton" name="historyButton">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                </Property>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Order History"/>
+                
+
+              </Properties>
+              
+
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="historyButtonActionPerformed"/>
+              </Events>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="420" width="184" height="46"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="components.RoundedButton" name="aboutButton">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                </Property>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="About Us"/>
+                
+
+              </Properties>
+              
+
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aboutButtonActionPerformed"/>
+              </Events>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="476" width="184" height="46"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="components.RoundedButton" name="profileButton">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                </Property>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="My Profile"/>
+                
+
+              </Properties>
+              
+
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="profileButtonActionPerformed"/>
+              </Events>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="532" width="184" height="46"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="components.RoundedButton" name="logoutButton">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                </Property>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Log out"/>
+                
+
+              </Properties>
+              
+
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="logoutButtonActionPerformed"/>
+              </Events>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="695" width="184" height="42"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="javax.swing.JLabel" name="sidebarLeaves">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="0"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value=""/>
+                
+
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/resources/images/leaves.png"/>
+                </Property>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="0" y="578" width="170" height="170"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+          </SubComponents>
+          
+
+        </Container>
+        
+
+        <Container class="components.RoundedPanel" name="welcomeBanner">
+          
+
+          <Properties>
+            
+
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="E9" green="F5" red="E8" type="rgb"/>
+            </Property>
+            
+
+            <Property name="gradientEnd" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="C9" green="E6" red="C8" type="rgb"/>
+            </Property>
+            
+
+          </Properties>
+          
+
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="248" y="26" width="1008" height="150"/>
+            </Constraint>
+          </Constraints>
+          
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+          
+
+          <SubComponents>
+            
+
+            <Component class="javax.swing.JLabel" name="eyebrow">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="11" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="FRESH LAUNDRY, LESS EFFORT"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="26" y="18" width="380" height="18"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="javax.swing.JLabel" name="welcomeTitle">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="30" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Welcome to Metric Laundry!"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="26" y="43" width="725" height="44"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="javax.swing.JLabel" name="welcomeTagline">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="16" style="0"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Clean Clothes, Happy You!"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="26" y="94" width="480" height="25"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="javax.swing.JLabel" name="basketImage">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="0"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value=""/>
+                
+
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/resources/images/basket.png"/>
+                </Property>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="754" y="-3" width="240" height="160"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+          </SubComponents>
+          
+
+        </Container>
+        
+
+        <Container class="components.RoundedPanel" name="servicesPanel">
+          
+
+          <Properties>
+</Properties>
+          
+
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="248" y="196" width="656" height="278"/>
+            </Constraint>
+          </Constraints>
+          
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+          
+
+          <SubComponents>
+            
+
+            <Component class="javax.swing.JLabel" name="servicesTitle">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Our Services"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="23" y="18" width="400" height="26"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="components.RoundedButton" name="viewServicesButton">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                </Property>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="View All →"/>
+                
+
+              </Properties>
+              
+
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewServicesButtonActionPerformed"/>
+              </Events>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="512" y="13" width="119" height="36"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Container class="components.RoundedPanel" name="serviceCard0">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="F4" green="F9" red="F4" type="rgb"/>
+                </Property>
+                
+
+                <Property name="shadow" type="boolean" value="false"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="59" width="197" height="200"/>
+                </Constraint>
+              </Constraints>
+              
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="true"/>
+              </Layout>
+              
+
+              <SubComponents>
+                
+
+                <Component class="javax.swing.JLabel" name="serviceImage0">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="13" style="0"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value=""/>
+                    
+
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/resources/images/washing.png"/>
+                    </Property>
+                    
+
+                  </Properties>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="28" y="5" width="140" height="92"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+                <Component class="javax.swing.JLabel" name="serviceName0">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="15" style="1"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value="Washing"/>
+                    
+
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    
+
+                  </Properties>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="8" y="99" width="181" height="25"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+                <Component class="javax.swing.JLabel" name="servicePrice0">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="32" green="5A" red="14" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="13" style="0"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value="Loading rate..."/>
+                    
+
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    
+
+                  </Properties>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="8" y="127" width="181" height="22"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+                <Component class="components.RoundedButton" name="orderButton0">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="3E" green="8E" red="1E" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="13" style="1"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value="Order Now  &gt;"/>
+                    
+
+                  </Properties>
+                  
+
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="orderButton0ActionPerformed"/>
+                  </Events>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="26" y="158" width="145" height="34"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+              </SubComponents>
+              
+
+            </Container>
+            
+
+            <Container class="components.RoundedPanel" name="serviceCard1">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="F4" green="F9" red="F4" type="rgb"/>
+                </Property>
+                
+
+                <Property name="shadow" type="boolean" value="false"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="225" y="59" width="197" height="200"/>
+                </Constraint>
+              </Constraints>
+              
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="true"/>
+              </Layout>
+              
+
+              <SubComponents>
+                
+
+                <Component class="javax.swing.JLabel" name="serviceImage1">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="13" style="0"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value=""/>
+                    
+
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/resources/images/dry-cleaning.png"/>
+                    </Property>
+                    
+
+                  </Properties>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="28" y="5" width="140" height="92"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+                <Component class="javax.swing.JLabel" name="serviceName1">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="15" style="1"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value="Dry Cleaning"/>
+                    
+
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    
+
+                  </Properties>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="8" y="99" width="181" height="25"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+                <Component class="javax.swing.JLabel" name="servicePrice1">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="32" green="5A" red="14" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="13" style="0"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value="Loading rate..."/>
+                    
+
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    
+
+                  </Properties>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="8" y="127" width="181" height="22"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+                <Component class="components.RoundedButton" name="orderButton1">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="3E" green="8E" red="1E" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="13" style="1"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value="Order Now  &gt;"/>
+                    
+
+                  </Properties>
+                  
+
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="orderButton1ActionPerformed"/>
+                  </Events>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="26" y="158" width="145" height="34"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+              </SubComponents>
+              
+
+            </Container>
+            
+
+            <Container class="components.RoundedPanel" name="serviceCard2">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="F4" green="F9" red="F4" type="rgb"/>
+                </Property>
+                
+
+                <Property name="shadow" type="boolean" value="false"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="430" y="59" width="197" height="200"/>
+                </Constraint>
+              </Constraints>
+              
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="true"/>
+              </Layout>
+              
+
+              <SubComponents>
+                
+
+                <Component class="javax.swing.JLabel" name="serviceImage2">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="13" style="0"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value=""/>
+                    
+
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/resources/images/folding.png"/>
+                    </Property>
+                    
+
+                  </Properties>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="28" y="5" width="140" height="92"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+                <Component class="javax.swing.JLabel" name="serviceName2">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="15" style="1"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value="Folding"/>
+                    
+
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    
+
+                  </Properties>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="8" y="99" width="181" height="25"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+                <Component class="javax.swing.JLabel" name="servicePrice2">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="32" green="5A" red="14" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="13" style="0"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value="Loading rate..."/>
+                    
+
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    
+
+                  </Properties>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="8" y="127" width="181" height="22"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+                <Component class="components.RoundedButton" name="orderButton2">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="3E" green="8E" red="1E" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="13" style="1"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value="Order Now  &gt;"/>
+                    
+
+                  </Properties>
+                  
+
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="orderButton2ActionPerformed"/>
+                  </Events>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="26" y="158" width="145" height="34"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+              </SubComponents>
+              
+
+            </Container>
+            
+
+          </SubComponents>
+          
+
+        </Container>
+        
+
+        <Container class="components.RoundedPanel" name="trackingPanel">
+          
+
+          <Properties>
+</Properties>
+          
+
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="924" y="196" width="332" height="478"/>
+            </Constraint>
+          </Constraints>
+          
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+          
+
+          <SubComponents>
+            
+
+            <Component class="javax.swing.JLabel" name="trackingTitle">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Track Your Laundry"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="23" y="18" width="286" height="26"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="javax.swing.JLabel" name="trackingOrder">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="6B" green="6B" red="6B" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="0"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Your latest order at a glance"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="23" y="50" width="286" height="20"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="components.StepProgressBar" name="progress">
+              
+
+              <Properties>
+                
+
+                <Property name="vertical" type="boolean" value="true"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="24" y="84" width="282" height="292"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Container class="components.RoundedPanel" name="completionPanel">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="E9" green="F5" red="E8" type="rgb"/>
+                </Property>
+                
+
+                <Property name="shadow" type="boolean" value="false"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="22" y="386" width="287" height="68"/>
+                </Constraint>
+              </Constraints>
+              
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="true"/>
+              </Layout>
+              
+
+              <SubComponents>
+                
+
+                <Component class="javax.swing.JLabel" name="completionTitle">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="32" green="5A" red="14" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="12" style="1"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value="Estimated Completion"/>
+                    
+
+                  </Properties>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="16" y="10" width="253" height="20"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+                <Component class="javax.swing.JLabel" name="completionValue">
+                  
+
+                  <Properties>
+                    
+
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="32" green="5A" red="14" type="rgb"/>
+                    </Property>
+                    
+
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="13" style="0"/>
+                    </Property>
+                    
+
+                    <Property name="text" type="java.lang.String" value="Place an order to get started"/>
+                    
+
+                  </Properties>
+                  
+
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="16" y="34" width="253" height="21"/>
+                    </Constraint>
+                  </Constraints>
+                  
+
+                </Component>
+                
+
+              </SubComponents>
+              
+
+            </Container>
+            
+
+          </SubComponents>
+          
+
+        </Container>
+        
+
+        <Container class="components.RoundedPanel" name="recentPanel">
+          
+
+          <Properties>
+</Properties>
+          
+
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="248" y="494" width="656" height="220"/>
+            </Constraint>
+          </Constraints>
+          
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+          
+
+          <SubComponents>
+            
+
+            <Component class="javax.swing.JLabel" name="recentTitle">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1B" green="1B" red="1B" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Your Recent Orders"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="23" y="17" width="340" height="26"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Component class="components.RoundedButton" name="viewOrdersButton">
+              
+
+              <Properties>
+                
+
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                </Property>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="32" green="5A" red="14" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="13" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="View All →"/>
+                
+
+              </Properties>
+              
+
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewOrdersButtonActionPerformed"/>
+              </Events>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="512" y="12" width="119" height="36"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+            <Container class="javax.swing.JScrollPane" name="ordersScroll">
+              
+
+              <Properties>
+</Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="58" width="616" height="140"/>
+                </Constraint>
+              </Constraints>
+              
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              
+
+              <SubComponents>
+                
+
+                <Component class="javax.swing.JTable" name="ordersTable">
+                  
+
+                  <Properties>
+</Properties>
+                  
+
+                </Component>
+                
+
+              </SubComponents>
+              
+
+            </Container>
+            
+
+          </SubComponents>
+          
+
+        </Container>
+        
+
+        <Container class="components.RoundedPanel" name="thanksPanel">
+          
+
+          <Properties>
+            
+
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="3E" green="8E" red="1E" type="rgb"/>
+            </Property>
+            
+
+            <Property name="shadow" type="boolean" value="false"/>
+            
+
+          </Properties>
+          
+
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="924" y="690" width="332" height="44"/>
+            </Constraint>
+          </Constraints>
+          
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+          
+
+          <SubComponents>
+            
+
+            <Component class="javax.swing.JLabel" name="thanksLabel">
+              
+
+              <Properties>
+                
+
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="FF" green="FF" red="FF" type="rgb"/>
+                </Property>
+                
+
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                
+
+                <Property name="text" type="java.lang.String" value="Thank you for choosing Metric Laundry!"/>
+                
+
+              </Properties>
+              
+
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="15" y="9" width="308" height="26"/>
+                </Constraint>
+              </Constraints>
+              
+
+            </Component>
+            
+
+          </SubComponents>
+          
+
+        </Container>
+        
+
+        <Component class="javax.swing.JLabel" name="loadStatus">
+          
+
+          <Properties>
+            
+
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="6B" green="6B" red="6B" type="rgb"/>
+            </Property>
+            
+
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="0"/>
+            </Property>
+            
+
+            <Property name="text" type="java.lang.String" value="Loading your services and orders..."/>
+            
+
+          </Properties>
+          
+
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="252" y="725" width="855" height="22"/>
+            </Constraint>
+          </Constraints>
+          
+
+        </Component>
+        
+
+        <Component class="components.RoundedButton" name="refreshButton">
+          
+
+          <Properties>
+            
+
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="FF" green="FF" red="FF" type="rgb"/>
+            </Property>
+            
+
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="32" green="5A" red="14" type="rgb"/>
+            </Property>
+            
+
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="13" style="1"/>
+            </Property>
+            
+
+            <Property name="text" type="java.lang.String" value="Refresh"/>
+            
+
+          </Properties>
+          
+
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="refreshButtonActionPerformed"/>
+          </Events>
+          
+
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="1135" y="736" width="116" height="24"/>
+            </Constraint>
+          </Constraints>
+          
+
+        </Component>
+        
+
+      </SubComponents>
+      
+
+    </Container>
+    
+
+  </SubComponents>
+  
+
+</Form>

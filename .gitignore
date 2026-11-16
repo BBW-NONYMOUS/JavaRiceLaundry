@@ -1,0 +1,5 @@
+/target/
+/out/
+/nbproject/private/
+*.class
+/data/*.dat
